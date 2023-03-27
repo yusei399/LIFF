@@ -1,0 +1,6 @@
+[build]
+  command = "cd src/nextjs && yarn install && yarn build"
+  publish = "src/nextjs/.next"
+
+[template.environment]
+  LIFF_ID = "Your LIFF ID which is aquired from LINE Dev Center"
